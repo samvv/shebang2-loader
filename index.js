@@ -85,10 +85,10 @@ module.exports = function removeShebang(source, inputSourceMap) {
 
   // Weird ... source-map does not seem to support nodes with multi-line text in it, which is strange to say the least.
   const node = buildSourceMapLineByLine(result, end.line, this.resourcePath)
-  node.setSourceContent(sourcePath, result)
+  //node.setSourceContent(sourcePath, result)
   node.setSourceContent(this.resourcePath, source)
 
-  const generated = node.toStringWithSourceMap({ file: sourcePath });
+  const generated = node.toStringWithSourceMap();
 
   // Done!
   this.callback(null, generated.code, generated.map.toJSON());
