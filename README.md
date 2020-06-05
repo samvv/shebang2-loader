@@ -9,11 +9,11 @@ support for source maps.
 1. Make this package available to Webpack:
 
    ```
-   npm i shebang2-loader
+   npm i -D shebang2-loader
    ```
    or
    ```
-   yarn add shebang2-loader
+   yarn add -D shebang2-loader
    ```
 
 2. Configure the loader in your `webpack.config.js`.
