@@ -1,0 +1,31 @@
+{
+  "name": "shebang2-loader-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example showcasing the usage of a Webpack loader for Unix-style shebangs",
+  "main": "dist.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samvv/shebang-loader2.git"
+  },
+  "author": "Sam Vervaeck <samvv@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samvv/shebang-loader2/issues"
+  },
+  "homepage": "https://github.com/samvv/shebang-loader2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  }
+}
