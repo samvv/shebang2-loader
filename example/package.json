@@ -5,8 +5,8 @@
   "description": "An example showcasing the usage of a Webpack loader for Unix-style shebangs",
   "main": "dist.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "webpack --config webpack.config.js",
+    "test": "npm run prepare && node dist.js"
   },
   "repository": {
     "type": "git",

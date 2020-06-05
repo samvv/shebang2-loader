@@ -11,9 +11,6 @@ module.exports = {
     filename: 'dist.js',
     path: path.resolve(__dirname),
   },
-  externals: {
-    'source-map-support': 'source-map-support'
-  },
   resolve: {
     extensions: [".ts", ".js"],
   },
@@ -24,7 +21,7 @@ module.exports = {
   module: {
     rules: [
       { test: /\.m?js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /example\/index.js$/, loader: "shebang2-loader" },
+      { test: path.resolve(__dirname, 'index.js'), loader: "shebang2-loader" },
     ]
   }
 };
