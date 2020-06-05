@@ -1,0 +1,28 @@
+{
+  "name": "shebang2-loader",
+  "version": "1.0.0",
+  "description": "A simple Webpack loader for files starting with a shebang (usually #!/usr/bin/env node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samvv/shebang2-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "shebang",
+    "command-line"
+  ],
+  "author": "Sam Vervaeck <samvv@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samvv/shebang2-loader/issues"
+  },
+  "homepage": "https://github.com/samvv/shebang2-loader#readme",
+  "dependencies": {
+    "source-map": "^0.7.3"
+  }
+}
