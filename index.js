@@ -1,7 +1,7 @@
 
 const path = require('path');
 
-const { SourceNode, SourceMapGenerator } = require('source-map');
+const { SourceNode } = require('source-map');
 
 function isWhiteSpace(ch) {
   return /[\t\r\n ]/.test(ch);
